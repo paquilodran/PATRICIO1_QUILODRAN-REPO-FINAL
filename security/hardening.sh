@@ -20,7 +20,10 @@ else
 fi
 
 echo "3. Configurando permisos..."
-sudo chmod 700 ~/PATRICIOQP-REPO-FINAL/deploy/setup.sh
-sudo chmod 700 ~/PATRICIOQP-REPO-FINAL/security/hardening.sh
+# CORREGIDO: usa rutas relativas
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+sudo chmod 700 "$SCRIPT_DIR/../deploy/setup.sh"
+sudo chmod 700 "$SCRIPT_DIR/hardening.sh"
+sudo chmod 700 "$SCRIPT_DIR/../maintenance/backup.sh"
 
 echo "SEGURIDAD CONFIGURADA"
