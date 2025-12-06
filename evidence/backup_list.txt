@@ -1,0 +1,4 @@
+total 12
+drwxr-xr-x 2 root root 4096 Dec  6 11:02 .
+drwxr-xr-x 3 root root 4096 Dec  6 11:01 ..
+-rw-r--r-- 1 root root  229 Dec  6 11:02 backup_web_2025-12-06_1102.tar.gz

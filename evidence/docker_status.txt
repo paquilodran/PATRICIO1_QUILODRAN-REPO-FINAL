@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                     NAMES
+e76b597cabc9   nginx:alpine   "/docker-entrypoint.…"   55 seconds ago   Up 55 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   production_web
