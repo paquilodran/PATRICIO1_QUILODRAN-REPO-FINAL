@@ -18,8 +18,10 @@ git clone git@github.com:paquilodran/PATRICIO1_QUILODRAN-REPO-FINAL.git
 ### Orden de Ejecución
 1. sudo ./deploy/setup.sh
 <img width="717" height="499" alt="image" src="https://github.com/user-attachments/assets/9200ddb2-e827-4aad-a9c6-74b02c39efc1" />
+
 2. sudo ./security/hardening.sh
 <img width="677" height="271" alt="image" src="https://github.com/user-attachments/assets/89c3da86-9d50-4bd9-a4a8-a9c0c799dbbc" />
+
 3. sudo ./maintenance/backup.sh
 <img width="779" height="140" alt="image" src="https://github.com/user-attachments/assets/21d19d42-70e2-46de-a8ef-a6db33f0f86d" />
 
